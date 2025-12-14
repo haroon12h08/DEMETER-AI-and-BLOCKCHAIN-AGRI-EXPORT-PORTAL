@@ -241,7 +241,6 @@ Designed for **machine-verifiable border checks**, not PDFs.
 
 ```bash
 git clone (https://github.com/haroon12h08/DEMETER-AI-and-BLOCKCHAIN-AGRI-EXPORT-PORTAL.git)
-cd agriqcert
 
 cd backend
 npm install
