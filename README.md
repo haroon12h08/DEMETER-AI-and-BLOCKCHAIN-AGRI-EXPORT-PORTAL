@@ -284,8 +284,9 @@ DEMETER demonstrates how Verifiable Credentials can modernize agricultural trade
 
 Contributions, integrations, and demonstration requests are welcome.
 Please open an issue, submit a pull request, or request a walkthrough.
+## Architecture
 
-
+```mermaid
 sequenceDiagram
     participant F as Farmer
     participant Q as QA Certifier
@@ -309,6 +310,6 @@ sequenceDiagram
     Note over I,V: Real-time trust confirmed!
     I->>C: Deliver to consumer
     opt Optional Consumer View
-        C->>V: Scan product QR
-        V->>C: Display DPP data
-    end
+    C->>V: Scan product QR
+     V->>C: Display DPP data
+```
