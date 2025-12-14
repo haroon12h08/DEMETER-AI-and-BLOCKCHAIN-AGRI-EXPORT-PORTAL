@@ -41,13 +41,6 @@ It ensures that **what is verified is exactly what was issued**, cryptographical
 
 ---
 
-## 🔄 Architecture & Workflow
-The workflow follows a secure, step-by-step process from harvest to consumption, ensuring traceability and trust at every stage. This linear design minimizes friction, reduces attack surfaces, and scales to high-volume trade.
-
-```mermaid
-
-```
-
 ## Architecture
 
 ```mermaid
@@ -78,14 +71,6 @@ sequenceDiagram
     end
 
 ```
-
-# 🌱 AgriQCert  
-**Verifiable Quality Certification for Agricultural Trade**
-
-AgriQCert is a high-complexity, web-based platform that digitizes and secures agricultural export and import certification using **Verifiable Credentials (VCs)**. It replaces fragmented, paper-heavy compliance workflows with a **tamper-proof, AI-assisted, blockchain-backed system** aligned with **W3C Verifiable Credentials** and **OpenID4VP** standards.
-
-The platform enables exporters, QA agencies, and importers/customs authorities to **issue, carry, and verify trusted quality certificates** (Digital Product Passports) using **DID-based identities** and **QR-based instant verification**.
-
 ---
 
 ## 🧠 In-Depth Architecture Explanation
@@ -216,16 +201,6 @@ This architecture doubles as **executable pseudocode** for backend orchestration
 
 ---
 
-## ⭐ Good-to-Have Features (Implemented / Planned)
-
-- Advanced role-based dashboards
-- VC expiry & revocation automation
-- Full audit trails with timestamps
-- Mobile-first responsive UI
-- Integration with customs / trade APIs
-
----
-
 ## 🧾 Digital Product Passport (VC Schema)
 
 Each VC encapsulates:
@@ -257,10 +232,7 @@ Designed for **machine-verifiable border checks**, not PDFs.
 | VC Tools | Inji Certify / Verify | Credential lifecycle |
 | Blockchain | Ethereum / Polygon + IPFS | Anchoring & storage |
 | AI / ML | Tesseract OCR + OpenAI API | Extraction & anomaly detection |
-| Database | PostgreSQL + Redis | Metadata & caching |
 | Dev Tools | Nodemon, ESLint, Prettier | Developer experience |
-
-Standards-compliant. No vendor lock-in.
 
 ---
 
@@ -273,22 +245,19 @@ Standards-compliant. No vendor lock-in.
 
 ---
 
-## 🚀 Quick Start
-
 ### Prerequisites
 - Node.js 18+
-- PostgreSQL 14+
-- Docker (optional)
 
 ### Installation
 
 ```bash
-git clone https://github.com/your-org/agriqcert.git
+git clone (https://github.com/haroon12h08/DEMETER-AI-and-BLOCKCHAIN-AGRI-EXPORT-PORTAL.git)
 cd agriqcert
 
 cd backend
 npm install
-cp .env.example .env
+ppx nodemon
 
 cd ../frontend
 npm install
+npm run dev
