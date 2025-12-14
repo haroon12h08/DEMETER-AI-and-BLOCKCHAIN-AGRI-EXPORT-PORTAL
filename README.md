@@ -311,5 +311,6 @@ sequenceDiagram
     I->>C: Deliver to consumer
     opt Optional Consumer View
     C->>V: Scan product QR
-     V->>C: Display DPP data
+    V->>C: Display DPP data
+    end
 ```
